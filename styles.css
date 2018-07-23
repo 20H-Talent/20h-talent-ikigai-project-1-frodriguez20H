@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/Technology-Wallpaper-18.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,17 +67,30 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
+  margin-bottom: 20px;
+  /* width: 150px; */
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 25%;
+  border: 5px solid rgb(255, 255, 255);
+  transition: all 0.5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  /* width: 250px; */
+  height: 250px;
+  /* left: 150px;
+  top: 25px; */
+  /* position: absolute; */
+  -webkit-transition-property: height transform -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property: height transform -webkit-transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
 }
 .tag {
-  background-color: #efefef;
+  background-color: #c9f4fe;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -86,20 +99,20 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(0, 195, 255);
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
-  background: #fff;
+  text-align: justify;
+  background: rgb(184, 220, 248);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #6c94b3;
 }
 
 ul.skills {
@@ -117,7 +130,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #35ff03;
 }
 
 footer {
